@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding: 0px ;}
+
+/**************************************************************Home*******************************************************************************/
+
+#background img {width:100%; height:100% ; position:fixed; top:0px; left:0px; z-index:-100}
+
+#title {position:fixed; top:0px; left:0px; z-index:-2; height:100%; width:100%; text-align:center}
+#title img {height:350px; width:352.6px;}
+#title h1 {font-family:"Glitter"; font-size:75px; margin-top:20px; color:#FFFFFF}
+#title p {font-family:"daisy"; font-size:35px; font:bolder; color:#FFFFFF}
+
+#menu {width:100%; height:45px; background-color:#FFFFFF; position:fixed; top:0px; z-index:5; text-align:center}
+#menu ul li { list-style:none; padding:5 20px; display:inline-block;  margin-left:20px; margin-right:20px  }
+#menu ul li a {text-decoration:none ; display:block; font:bold; color:#000000;}
+#menu ul li a p {font-family:"Unchanged"; font-size:26px;}
+#menu ul li a h1 {font-family:"Glitter"; font-size:30px; color:#FBB49F}
+#menu ul li a h1:hover {color:#ABE3E5}
+#menu ul li a p:hover {color:#ABE3E5}
+
+#wrapper {width:100%; background-color:#ececec; margin-top:700px; margin-left:auto; margin-right:auto; padding-bottom:60px}
+
+#desc {height:50%; text-align:center; background-color:#FFFFFF; padding:50px}
+#desc h1 {font-family:"Airplanes"; font-size:50px;}
+#desc p{font-family:"Architex"; font-size:35px;}
+
+#start {width:200px; height:35px; text-align:center; background-color:#000000; padding-top:10px; margin:10 auto;}
+#start h2 {font-family:"Glitter"; font-size:26px;}
+#start h2 a {text-decoration:none; display:block; color:#FFFFFF;}
+#start h2 a:hover {color:#ececec}
+
+#stop {width:100%; height:10%; margin: 40 10 auto auto; text-align:center}
+#stop img {width:160px; height:30px}
+
+#hottest {width:100%; height:8%; }
+#hottest h1 {font-family:"CopaseticNF"; font-size:40px; text-align:center}
+
+#latest {width:100%; height:10%; margin-top:40px;}
+#latest h1 {font-family:"CopaseticNF"; font-size:40px; text-align:center}
+
+#footer {width:100%; height:7%; background-color:#ececec; border-bottom:#D4AF37 solid 2px; border-top:#D4AF37 solid 2px;margin-top:30px;}
+#footer table {margin:auto} 
+#footer table tr td {padding:10 20px}
+#footer table tr td img {width:20px; height:20px}
+#footer table tr td img a {text-decoration:none; display:block}
+#footer p { font-size:20px; text-align:center; font-family:Allura; margin-top:15px}
+
+/**************************************************************Container**************************************************************************/
+
+#container {width:900px; height:300px; margin: 20px auto; background-color:#ececec}
+
+#container .box {position:relative; width:calc(300px - 30px); height: calc(300px - 30px); background:#FFFFFF; float: left; margin:15px; box-sizing:border-box; /*overflow: hidden*/; box-shadow: 0 5px 10px rgba(0,0,0,.8)}
+
+#container .box img {position: relative; width:100%;transition: 0.5s}
+#container .box:hover img {opacity: .2; transform: scale(1.2)}
+
+#container .box h1 {font-family:"Aaram";position:absolute; width:100%; top:50%; transform: translateY(-50%);text-align:center; z-index:2; padding: 20px; box-sizing: border-box; transition: 0.5s; opacity:0; visibility:hidden}
+#container .box:hover h1 {opacity:1; visibility:visible; transition-delay: 0.2s}
+
+#container .box h1 a {text-decoration:none;color:#000000; display:block; }
+
+/**************************************************************Container2*************************************************************************/
+
+#container2 {width:900px; height:600px; margin-top:20px; margin-bottom:0px; margin-left:auto; margin-right:auto; background-color:#ececec}
+
+#container2 .box {position:relative; width:calc(300px - 30px); height: calc(300px - 30px); background:#FFFFFF; float: left; margin:15px; box-sizing:border-box; /*overflow: hidden*/; box-shadow: 0 5px 10px rgba(0,0,0,.8)}
+
+#container2 .box img {position: relative; width:100%; transition: 0.5s}
+#container2 .box:hover img {opacity: .2; transform: scale(1.2)}
+
+#container2 .box h1 {font-family:"Aaram";position:absolute; width:100%; top:50%; transform: translateY(-50%);text-align:center; z-index:2; padding: 20px; box-sizing: border-box; transition: 0.5s; opacity:0; visibility:hidden}
+#container2 .box:hover h1 {opacity:1; visibility:visible; transition-delay: 0.2s}
+
+#container2 .box h1 a {text-decoration:none;color:#000000; display:block; }
+
+/*******************************************************************Hair**************************************************************************/
+
+#wrapper1 {width:100%; background-color:#ececec; margin-top:45px; margin-left:auto; margin-right:auto; padding-bottom:60px}
+
+#hair {width:100%; height:20%; text-align:center}
+#hair img {width:160px; height:30px; margin-top:25px}
+#hair h1 {font-family:"CopaseticNF"; font-size:40px; margin-top:30px}
+
+#content1 {width:920px; height:1140px; margin:auto}
+
+#about {width:315px; height:390px; float:right; background-color:#FFFFFF; text-align:center; margin-top:35px}
+#about img {width:250px; height:250px;}
+#about p {font-family:"Variane"; font-size:22px; text-align:justify; margin:10px 30px}
+
+#post {width:315px; height:350px; float:right; background-color:#FFFFFF; margin-top:20px; text-align:center}
+#post h3 {font-family:"InFormal-B"; font-size:20px; background-color:#000000; color:#FFFFFF; width:46%; padding:3px 5px}
+#post a img {width:300px; height:88.5px; margin:10px 0 5 0}
+
+/**************************************************************Container3*************************************************************************/
+
+#container3 {width:600px; height:900px; margin: 20px 0 20px 0; background-color:#ececec; float:left}
+
+#container3 .box {position:relative; width:calc(300px - 30px); height: calc(300px - 30px); background:#FFFFFF; float: left; margin:15px; box-sizing:border-box; /*overflow: hidden*/; box-shadow: 0 5px 10px rgba(0,0,0,.8)}
+
+#container3 .box img {position: relative; width:100%;transition: 0.5s}
+#container3 .box:hover img {opacity: .2; transform: scale(1.2)}
+
+#container3 .box h1 {font-family:"Aaram";position:absolute; width:100%; top:50%; transform: translateY(-50%);text-align:center; z-index:2; padding: 20px; box-sizing: border-box; transition: 0.5s; opacity:0; visibility:hidden}
+#container3 .box:hover h1 {opacity:1; visibility:visible; transition-delay: 0.2s}
+
+#container3 .box h1 a {text-decoration:none;color:#000000; display:block; }
+
+/*******************************************************************Form**************************************************************************/
+
+#form {width:315px; height:300px; float:right; background-color:#FFFFFF; margin-top:20px; text-align:center}
+#form h3{font-family:"InFormal-B"; font-size:20px; background-color:#000000; color:#FFFFFF; width:46%; padding:3px 5px}
+
+#form_contact { height:290px; width:295px; float:right; margin-bottom:20px; background-color:#FFFFFF; padding:10;}
+#form_contact input[type=text] { width:195px; border:1px solid #e5e5e5; padding:3px 5px; color:#666666; background-color:#ececec; font: 14px "InFormal-T"; margin-left:20px;}
+.field_text { font-family:"InFormal-T";}
+#form_contact input[type=email] { margin-left:20px ;width:195px; height:18px; border:1px solid #e5e5e5; background:#ececec; padding:3px 5px; color:#666666; font: 14px "InFormal-T";}
+#form_contact textarea { width:290px; height:180px; border:1px solid #e5e5e5; background:#ececec; padding:3px 5px; color:#666666; font: 14px "InFormal-T" ;margin:5px 0px 10px 0px;}
+#form_contact input[type=submit] { background:#ececec;border:none; color:#666666; font-weight:bold; font:14px "InFormal-T"; padding:5px 10px 5px 10px;}
+#form_contact input[type=reset] { background:#ececec; border:none; color:#666666; font-weight:bold; font:14px "InFormal-T"; padding:5px 10px 5px 10px;}
+
+/*******************************************************************Clothes***********************************************************************/
+
+#content2 {width:920px; height:1810px; margin:auto}
+
+/**************************************************************Container4*************************************************************************/
+
+#container4 {width:600px; height:1800px; margin: 20px 0 20px 0; background-color:#ececec; float:left}
+
+#container4 .box {position:relative; width:calc(300px - 30px); height: calc(300px - 30px); background:#FFFFFF; float: left; margin:15px; box-sizing:border-box; /*overflow: hidden*/; box-shadow: 0 5px 10px rgba(0,0,0,.8)}
+
+#container4 .box img {position: relative; width:100%;transition: 0.5s}
+#container4 .box:hover img {opacity: .2; transform: scale(1.2)}
+
+#container4 .box h1 {font-family:"Aaram";position:absolute; width:100%; top:50%; transform: translateY(-50%);text-align:center; z-index:2; padding: 20px; box-sizing: border-box; transition: 0.5s; opacity:0; visibility:hidden}
+#container4 .box:hover h1 {opacity:1; visibility:visible; transition-delay: 0.2s}
+
+#container4 .box h1 a {text-decoration:none;color:#000000; display:block; }
+
+/*******************************************************************Shoes*************************************************************************/
+
+#content3 {width:920px; height:1210px; margin:auto}
+
+/**************************************************************Container5*************************************************************************/
+
+#container5 {width:600px; height:1200px; margin: 20px 0 20px 0; background-color:#ececec; float:left}
+
+#container5 .box {position:relative; width:calc(300px - 30px); height: calc(300px - 30px); background:#FFFFFF; float: left; margin:15px; box-sizing:border-box; /*overflow: hidden*/; box-shadow: 0 5px 10px rgba(0,0,0,.8)}
+
+#container5 .box img {position: relative; width:100%;transition: 0.5s}
+#container5 .box:hover img {opacity: .2; transform: scale(1.2)}
+
+#container5 .box h1 {font-family:"Aaram";position:absolute; width:100%; top:50%; transform: translateY(-50%);text-align:center; z-index:2; padding: 20px; box-sizing: border-box; transition: 0.5s; opacity:0; visibility:hidden}
+#container5 .box:hover h1 {opacity:1; visibility:visible; transition-delay: 0.2s}
+
+#container5 .box h1 a {text-decoration:none;color:#000000; display:block; }
+
+/*******************************************************************About*************************************************************************/
+
+#wrapperabout {width:100%; background-color:#FFFFFF; margin-top:45px; margin-left:auto; margin-right:auto; padding-bottom:60px;}
+
+#open {width:100%; height:843.125px;}
+#open img {width:1349px; height:843.125px; position:relative }
+#word { width:300px; position:absolute; top:150px; right:170px; text-align:right;}
+#word h1 {font-family:"InFormal-B"; font-size:55px;}
+#word p {font-family:"InFormal-T"; font-size:30px; margin-top:30px}
+
+#about1 {width:75%; margin-top:130px; margin-left:auto; margin-right:auto; padding-top:100px; border-top: #CCCCCC solid 2px}
+#about1 h1 { font-family:"Aaram"; font-size:40px}
+#about1 p {font-family:"Aaram"; font-size:26px; text-align:justify; margin-top:20px}
+
+#collage {margin-top:240px; margin-left:15px; margin-right:15px; height:1154.569px;}
+.landscape img {width:1319px; height:557.32px}
+.image1 img{width:639.5px; height:551.249px; margin-top:40px; margin-right:40px; float:left}
+.image2 img{width:639.5px; height:551.249px; margin-top:40px; float:right}
+
+#plus { margin-top:200px; width:80%; margin-left:auto; margin-right:auto}
+#plus h1 { font-family:"Aaram"; font-size:40px; width:60%; text-align:justify}
+#plus p {font-family:"Aaram"; font-size:26px; text-align:justify; margin-top:20px}
+
+#end { margin-left:auto; margin-right:auto; margin-top:130px; width:600px}
+#end img {width:600px; height:800px;}
+
+#footer1 {width:100%; height:7%; background-color:#FFFFFF; border-bottom:#D4AF37 solid 2px; border-top:#D4AF37 solid 2px;margin-top:70px;}
+#footer1 table {margin:auto} 
+#footer1 table tr td {padding:10 20px}
+#footer1 table tr td img {width:20px; height:20px}
+#footer1 table tr td img a {text-decoration:none; display:block}
+#footer1 p { font-size:20px; text-align:center; font-family:Allura; margin-top:15px}
+
+/*******************************************************************Content***********************************************************************/
+
+#cursor {text-align:center}
+#cursor h1 {font-family:"Together"; font-size:70px; margin: 230px 0;}
+#cursor ul li {list-style:none; display:inline-block; padding:8 145px; border-left:#959595 solid 2px; border-right:#959595 solid 2px}
+#cursor ul li a {text-decoration:none ; display:block; font:bold; color:#000000; font-family:"Glitter"; font-size:35px;}
+#cursor ul li a:hover {color:#696BAD}
+
+#inter {width:1135px;margin:0 auto; margin-top:30px}
+#inter img {width:1135px; height:422.5px; position:relative;}
+#inter h1 {font-family:"daisy"; font-size:100px; position:absolute; width:700px; top:830px; left:330px; text-align:center;}
+
+#fill {width:1135px; margin:auto; height:2950px}
+#fill h1 {font-family:"CopaseticNF"; font-size:50px; margin:150px 0px 50px 0px; text-align:center;}
+
+/*******************************************************************Pack**************************************************************************/
+
+#pack {width:1135px; height:490px;}
+
+#packfoto {width:730px; float:right}
+
+#pack1 {width:340px; float:left; margin-right:50px}
+#pack1 img {width:340px; }
+
+#pack2 {width:340px; float:right}
+#pack2 img {width:340px;}
+
+#pack1 .smallpic1 img {width:150px; margin-right:40px; float:left; margin-top:40px}
+#smallpic2 img {width:150px; float:right; margin-top:40px}
+
+#pack2 .smallpic1 img {width:150px; float:left; margin-bottom:40px}
+
+#packword {width:385px; float:left; margin-right:20px }
+#packword h3 {font-family:"Aaram"; font-size:30px;}
+#packword p {font-family:"Xarrovv"; font-size:20px; text-align:justify;  margin-top:10px}
+#packword ul li { list-style:inside circle; font-family:"Xarrovv"; font-size:20px; margin-left:30px;}
+
+#packfotoword {width:1135px; height:800px; margin-top:100px;}
+
+#left {width:535px; float:left; margin-right:65px}
+#left img {width:535px}
+#left p {font-family:"Xarrovv"; font-size:20px; text-align:justify; margin:30 30 5px}
+#left ul li {list-style:inside circle; font-family:"Xarrovv"; font-size:20px; margin-left:30px}
+
+#right {width:535px; float:right; }
+#right h3 {font-family:"Aaram"; font-size:30px; margin: 0 30px}
+#right p {font-family:"Xarrovv"; font-size:20px; text-align:justify;  margin: 10 30 30px}
+#right img {width:535px}
+
+/*******************************************************************Cheat*************************************************************************/
+
+#cheat {width:1135px; height:475px;}
+#cheat p {font-family:"Xarrovv"; font-size:20px; text-align:justify; width:800px; margin:0 auto 30px}
+
+#cheat1 {width:552.5px; float:left; margin-right:30px}
+
+#smallcheat1 {width:259.25px; margin-right:30px; float:left; border:#d9d9d9 solid 1px; padding:10 0px; height:335px}
+#smallcheat1 h4{ font-family:"Xarrovv"; font-size:20px; text-align:center; margin-bottom:20px}
+#smallcheat1 td {font-family:"Xarrovv"; font-size:15px ; padding:10px}
+
+#smallcheat2 {width:259.25px; float:right; border:#d9d9d9 solid 1px; padding:10 0px; height:335px}
+#smallcheat2 h4{ font-family:"Xarrovv"; font-size:20px; text-align:center; margin-bottom:20px}
+#smallcheat2 td {font-family:"Xarrovv"; font-size:15px ; padding:5px 5 5 10}
+
+#cheat2 {width:552.5px; float:right;}
+
+#smallcheat3 {width:259.25px; margin-right:30px; float:left; border:#d9d9d9 solid 1px; padding:10 0px; height:335px}
+#smallcheat3 h4{ font-family:"Xarrovv"; font-size:20px; text-align:center; margin-bottom:20px}
+#smallcheat3 td {font-family:"Xarrovv"; font-size:15px ; padding:10px}
+
+#smallcheat4 {width:259.25px; float:right; border:#d9d9d9 solid 1px; padding:10 0px; height:335px}
+#smallcheat4 h4{ font-family:"Xarrovv"; font-size:20px; text-align:center; margin-bottom:20px}
+#smallcheat4 td {font-family:"Xarrovv"; font-size:15px ; padding:5px 5 5 10}
+
+/*******************************************************************Content***********************************************************************/
+
+#photo {width:1135px;position:relative}
+#photo1 img {width:785px; float:left; margin-top:60px}
+#photo2 img {width:350px; float:right}
+
+#cc {width:600px; position:absolute; top:3820px; left:450px; padding:30px;background-color:#98c4d6; opacity:0.9}
+#cc h3 {font-family:"Aaram"; font-size:30px;}
+#cc p {font-family:"Xarrovv"; font-size:20px; text-align:justify; font:bold}
+#cc h6 a {text-decoration:none; display:block; background-color:#5d9db7; width:50px; font-family:"Xarrovv"; font-size:20px; margin-top:10px; color:#000000; margin:auto; padding:10px}
+
+/*******************************************************************Font**************************************************************************/
+
+@font-face {
+	font-family:Unchanged;
+	src:url(Font/unchanged.ttf)
+}
+@font-face {
+	font-family:Glitter;
+	src:url(Font/Glitter.ttf)
+}
+@font-face {
+	font-family:daisy;
+	src:url(Font/daisy.ttf)
+}
+@font-face {
+	font-family:Airplanes;
+	src:url(Font/Airplanes.ttf)
+}
+@font-face {
+	font-family:Architex;
+	src:url(Font/Architex.ttf)
+}
+@font-face {
+	font-family:Together;
+	src:url(Font/Together.ttf)
+}
+@font-face {
+	font-family:CopaseticNF;
+	src:url(Font/CopaseticNF.ttf)
+}
+@font-face {
+	font-family:Aaram;
+	src:url(Font/Aaram.ttf)
+}
+@font-face {
+	font-family:Allura;
+	src:url(Font/Allura.ttf)
+}
+@font-face {
+	font-family:Variane;
+	src:url(Font/Variane.ttf)
+}
+@font-face {
+	font-family:InFormal-B;
+	src:url(Font/InFormal-B.otf)
+}
+@font-face {
+	font-family:InFormal-T;
+	src:url(Font/InFormal-T.otf)
+}
+@font-face {
+	font-family:Xarrovv;
+	src:url(Font/Xarrovv.otf)
+}
+@font-face {
+	font-family:Frosting;
+	src:url(Font/Frosting.otf)
+}
